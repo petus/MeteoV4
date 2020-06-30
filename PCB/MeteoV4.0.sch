@@ -22471,7 +22471,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="VALUE" x="-41.783" y="22.225" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="155.575" y="22.225" smashed="yes" rot="R90">
-<attribute name="NAME" x="154.0764" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="159.1564" y="16.51" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="155.067" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="55.88" y="15.24" smashed="yes" rot="R180">
@@ -22540,7 +22540,7 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="C6" gate="G$1" x="175.26" y="152.4" smashed="yes">
 <attribute name="NAME" x="176.784" y="152.781" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.784" y="147.701" size="1.778" layer="96"/>
+<attribute name="VALUE" x="169.164" y="147.701" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="134.62" y="152.4" smashed="yes">
 <attribute name="NAME" x="136.144" y="152.781" size="1.778" layer="95"/>
