@@ -284,9 +284,7 @@
 <hole x="3.9624" y="41.9354" drill="3"/>
 <hole x="72.3138" y="41.9354" drill="3"/>
 <text x="33.782" y="7.62" size="1.016" layer="126" rot="MR0">GND</text>
-<text x="2.9718" y="6.9342" size="1.016" layer="125" rot="R90">VBAT</text>
 <text x="2.9718" y="10.5664" size="1.016" layer="126" rot="MR270">VBAT</text>
-<text x="8.89" y="7.0358" size="1.016" layer="125" rot="R90">GND</text>
 <text x="8.89" y="10.3378" size="1.016" layer="126" rot="MR270">GND</text>
 <text x="1.651" y="25.0952" size="1.016" layer="126" rot="MR270">VPWR-&gt;VIN</text>
 <text x="1.651" y="19.4818" size="1.016" layer="126" rot="R90">VP-&gt;VIN</text>
@@ -311,7 +309,6 @@
 <text x="38.735" y="10.795" size="1.016" layer="125">R3</text>
 <text x="30.8102" y="14.605" size="1.016" layer="125" rot="R270">R4</text>
 <text x="33.02" y="14.605" size="1.016" layer="125" rot="R270">R5</text>
-<text x="67.31" y="25.4" size="1.016" layer="125" rot="R90">R6</text>
 <text x="55.245" y="26.67" size="1.016" layer="125" rot="R270">R7</text>
 <text x="6.9342" y="19.6088" size="1.016" layer="125">R10</text>
 <text x="5.3848" y="27.178" size="1.016" layer="125">R11</text>
@@ -321,8 +318,6 @@
 <text x="5.0038" y="32.639" size="1.016" layer="125">R17</text>
 <text x="17.018" y="36.4998" size="1.016" layer="125" align="bottom-center">IC3</text>
 <text x="1.9812" y="11.8872" size="1.016" layer="125" ratio="12" rot="R180" align="bottom-center">IC5</text>
-<text x="68.834" y="31.75" size="1.016" layer="126" ratio="10" rot="MR270">SV4</text>
-<text x="62.865" y="2.159" size="1.016" layer="125" ratio="10" rot="R180">SV6</text>
 <text x="60.96" y="21.59" size="1.016" layer="125">T1</text>
 <text x="60.96" y="31.75" size="1.016" layer="125">T2</text>
 <text x="21.1328" y="20.1422" size="1.016" layer="125" ratio="10" rot="R90">IO13 IO12 IO14</text>
@@ -342,6 +337,10 @@
 <wire x1="22.1234" y1="3.9624" x2="23.4442" y2="3.9624" width="0.3048" layer="125"/>
 <wire x1="24.1046" y1="3.6322" x2="25.4254" y2="3.6322" width="0.3048" layer="125"/>
 <text x="8.763" y="41.783" size="1.016" layer="125" align="bottom-center">IC4</text>
+<text x="18.161" y="14.5288" size="1.016" layer="125" rot="R90">VPWR</text>
+<text x="17.1704" y="14.5288" size="1.016" layer="126" rot="SMR90">VPWR</text>
+<text x="12.192" y="16.2814" size="1.016" layer="125" rot="R90">GND</text>
+<text x="12.192" y="19.2532" size="1.016" layer="126" rot="MR270">GND</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
