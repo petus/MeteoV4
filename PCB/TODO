@@ -1,4 +1,5 @@
 pull-up na reset
 kondík k resetu
-R13 - 1K
-Popisek R12 a R13 prohozený
+Popisek R12 a R13 jsou na desce prohozený
+R13 (ve schematu), R12 na desce - 1K
+
