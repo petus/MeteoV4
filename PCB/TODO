@@ -2,4 +2,4 @@ pull-up na reset
 kondík k resetu
 Popisek R12 a R13 jsou na desce prohozený
 R13 (ve schematu), R12 na desce - 1K
-
+R4 - 10k; R5 - 1k -> 1:10
