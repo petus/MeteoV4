@@ -206,7 +206,7 @@
 <text x="27.6352" y="16.8402" size="1.016" layer="125">C8</text>
 <text x="22.86" y="10.16" size="1.016" layer="125">C9</text>
 <text x="22.86" y="11.43" size="1.016" layer="125">C10</text>
-<text x="42.871390625" y="43.26859375" size="1.016" layer="125">ESPXX</text>
+<text x="31.974790625" y="36.00419375" size="1.016" layer="125">ESPXX</text>
 <text x="23.1902" y="9.525" size="1.016" layer="125" rot="SR270">LED1</text>
 <text x="21.59" y="9.525" size="1.016" layer="125" rot="R270">LED2</text>
 <text x="64.135" y="7.62" size="1.016" layer="125" rot="R270">R1</text>
@@ -221,7 +221,6 @@
 <text x="64.77" y="44.45" size="1.016" layer="125" ratio="10" rot="R180">S1</text>
 <text x="53.975" y="44.45" size="1.016" layer="125" ratio="10" rot="R180">S2</text>
 <text x="60.96" y="21.59" size="1.016" layer="125">T1</text>
-<text x="60.96" y="31.75" size="1.016" layer="125">T2</text>
 <text x="66.675" y="29.21" size="1.016" layer="125" rot="R45">VCC</text>
 <text x="66.675" y="26.67" size="1.016" layer="125" rot="R45">DTR</text>
 <text x="66.675" y="24.13" size="1.016" layer="125" rot="R45">RTS</text>
@@ -283,8 +282,8 @@
 <hole x="3.9624" y="41.9354" drill="3"/>
 <hole x="72.3138" y="41.9354" drill="3"/>
 <text x="33.782" y="7.62" size="1.016" layer="126" rot="MR0">GND</text>
-<text x="2.9718" y="10.5664" size="1.016" layer="126" rot="MR270">VBAT</text>
-<text x="8.89" y="10.3378" size="1.016" layer="126" rot="MR270">GND</text>
+<text x="2.6416" y="10.5664" size="1.016" layer="126" rot="MR270">VBAT</text>
+<text x="9.5504" y="10.668" size="1.016" layer="126" rot="MR270">GND</text>
 <text x="1.651" y="25.0952" size="1.016" layer="126" rot="MR270">VPWR-VIN</text>
 <text x="1.651" y="19.4818" size="1.016" layer="125" rot="R90">VP-VIN</text>
 <text x="16.1036" y="35.052" size="1.016" layer="125">C1</text>
@@ -318,7 +317,7 @@
 <text x="17.018" y="36.4998" size="1.016" layer="125" align="bottom-center">IC3</text>
 <text x="1.9812" y="11.8872" size="1.016" layer="125" ratio="12" rot="R180" align="bottom-center">IC5</text>
 <text x="60.96" y="21.59" size="1.016" layer="125">T1</text>
-<text x="60.96" y="31.75" size="1.016" layer="125">T2</text>
+<text x="58.9788" y="31.0896" size="1.016" layer="125">T2</text>
 <text x="21.1328" y="19.812" size="1.016" layer="125" ratio="10" rot="R90">IO13 IO12 IO14</text>
 <text x="20.1422" y="20.1422" size="1.016" layer="126" ratio="10" rot="MR90">IO13 IO12 IO14</text>
 <text x="49.8602" y="25.7556" size="1.016" layer="125" ratio="10" rot="R90">IO2 IO0</text>
@@ -342,6 +341,11 @@
 <text x="12.192" y="19.2532" size="1.016" layer="126" rot="MR270">GND</text>
 <text x="52.1716" y="32.6898" size="1.016" layer="125" rot="R90">C14</text>
 <text x="53.4924" y="32.6898" size="1.016" layer="125" rot="R90">R18</text>
+<wire x1="21.7932" y1="44.577" x2="21.7932" y2="39.624" width="1.016" layer="46"/>
+<wire x1="21.7932" y1="39.624" x2="22.7838" y2="38.6334" width="1.016" layer="46" curve="90"/>
+<wire x1="22.7838" y1="38.6334" x2="45.8978" y2="38.6334" width="1.016" layer="46"/>
+<wire x1="45.8978" y1="38.6334" x2="46.8884" y2="39.624" width="1.016" layer="46" curve="90"/>
+<wire x1="46.8884" y1="39.624" x2="46.8884" y2="44.577" width="1.016" layer="46"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

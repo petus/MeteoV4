@@ -22652,8 +22652,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <text x="-218.44" y="180.34" size="5.08" layer="152" font="vector" ratio="15">UART</text>
 <text x="-49.53" y="337.185" size="5.08" layer="152" font="vector" ratio="15">GPIO</text>
 <wire x1="3.175" y1="316.23" x2="1.27" y2="314.325" width="0.1524" layer="152" curve="-90"/>
-<text x="-96.52" y="198.12" size="1.778" layer="91">AP2127
-AP2112</text>
+<text x="-175.26" y="193.04" size="1.778" layer="91">AP2127 (Iq 60uA; LDOdrop 170mV/300mA; Iout 450mA)
+SPX3819 (Iq 90uA; LDOdrop 340mV/500mA; Iout 800mA)
+XC6210 (Iq 35uA; LDOdrop 100mV/200mA; Iout 800mA)
+TLV757P (Iq 25uA; LDOdrop 425mV/1A; Iout 1A)
+S-816A33AMC (Iq 30 uA; LDOdrop 100mV/100mA; Iout 1A)
+RT9080 (Iq 2uA; LDOdrop 310mV/600mA; Iout 600mA)
+SP6205 (Iq 5uA; LDOdrop 300mV/500mA; Iout 500mA)</text>
 <text x="-332.74" y="292.1" size="3.81" layer="91" font="vector" ratio="15">Vpwr (in) 7.5 - 16V
 Vin (out) 5V</text>
 <text x="-254" y="299.72" size="3.81" layer="91" font="vector" ratio="15">Li-Pol charger
@@ -22666,6 +22671,9 @@ Vbat (out) 4.2V</text>
 Vcc (out) 3.3V</text>
 <text x="-373.38" y="180.34" size="5.08" layer="91" font="vector" ratio="15">ESP8266</text>
 <text x="-96.52" y="180.34" size="5.08" layer="91" font="vector" ratio="15">Connector</text>
+<text x="-327.66" y="276.86" size="2.54" layer="91">VPWR -&gt; VIN</text>
+<text x="-243.84" y="281.94" size="2.54" layer="91">VIN -&gt; VBAT</text>
+<text x="-104.14" y="322.58" size="2.54" layer="91">VBAT -&gt; VCC</text>
 </plain>
 <instances>
 <instance part="P+2" gate="VCC" x="-315.595" y="168.91" smashed="yes">
@@ -22796,9 +22804,9 @@ Vcc (out) 3.3V</text>
 <instance part="P+4" gate="VCC" x="-63.5" y="275.59" smashed="yes">
 <attribute name="VALUE" x="-66.04" y="273.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="A" x="-94.615" y="327.66" smashed="yes">
-<attribute name="NAME" x="-95.885" y="327.66" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-88.9" y="327.66" size="1.778" layer="96" rot="R90"/>
+<instance part="JP1" gate="A" x="-94.615" y="330.2" smashed="yes">
+<attribute name="NAME" x="-95.885" y="330.2" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-88.9" y="330.2" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP5" gate="A" x="-234.95" y="289.56" smashed="yes">
 <attribute name="NAME" x="-236.22" y="289.56" size="1.778" layer="95" rot="R90"/>
@@ -23070,8 +23078,8 @@ Vcc (out) 3.3V</text>
 <wire x1="-75.565" y1="314.325" x2="-66.675" y2="314.325" width="0.1524" layer="91"/>
 <wire x1="-66.675" y1="314.325" x2="-66.675" y2="316.865" width="0.1524" layer="91"/>
 <junction x="-75.565" y="314.325"/>
-<wire x1="-92.075" y1="325.12" x2="-75.565" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-75.565" y1="325.12" x2="-75.565" y2="314.325" width="0.1524" layer="91"/>
+<wire x1="-92.075" y1="327.66" x2="-75.565" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-75.565" y1="327.66" x2="-75.565" y2="314.325" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
@@ -23639,8 +23647,8 @@ Vcc (out) 3.3V</text>
 <pinref part="IC3" gate="G$1" pin="IN"/>
 <wire x1="-112.395" y1="314.325" x2="-105.41" y2="314.325" width="0.1524" layer="91"/>
 <junction x="-112.395" y="314.325"/>
-<wire x1="-94.615" y1="325.12" x2="-112.395" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-112.395" y1="325.12" x2="-112.395" y2="314.325" width="0.1524" layer="91"/>
+<wire x1="-94.615" y1="327.66" x2="-112.395" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-112.395" y1="327.66" x2="-112.395" y2="314.325" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
