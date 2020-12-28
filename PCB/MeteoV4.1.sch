@@ -22674,6 +22674,9 @@ Vcc (out) 3.3V</text>
 <text x="-327.66" y="276.86" size="2.54" layer="91">VPWR -&gt; VIN</text>
 <text x="-243.84" y="281.94" size="2.54" layer="91">VIN -&gt; VBAT</text>
 <text x="-104.14" y="322.58" size="2.54" layer="91">VBAT -&gt; VCC</text>
+<text x="-106.68" y="299.72" size="1.778" layer="91">AMS1117</text>
+<text x="-104.14" y="254" size="1.778" layer="91">HT7833
+HT7333</text>
 </plain>
 <instances>
 <instance part="P+2" gate="VCC" x="-315.595" y="168.91" smashed="yes">
