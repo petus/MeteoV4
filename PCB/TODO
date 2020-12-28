@@ -1,5 +1,9 @@
-pull-up na reset
-kondík k resetu
-Popisek R12 a R13 jsou na desce prohozený
-R13 (ve schematu), R12 na desce - 1K
+AP2127 (Iq 60uA; LDOdrop 170mV/300mA; Iout 450mA)
+SPX3819 (Iq 90uA; LDOdrop 340mV/500mA; Iout 800mA)
+XC6210 (Iq 35uA; LDOdrop 100mV/200mA; Iout 800mA)
+TLV757P (Iq 25uA; LDOdrop 425mV/1A; Iout 1A)
+S-816A33AMC (Iq 30 uA; LDOdrop 100mV/100mA; Iout 1A)
+RT9080 (Iq 2uA; LDOdrop 310mV/600mA; Iout 600mA)
+SP6205 (Iq 5uA; LDOdrop 300mV/500mA; Iout 500mA)
+
 R4 - 10k; R5 - 1k -> 1:10
