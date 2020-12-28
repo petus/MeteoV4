@@ -286,13 +286,13 @@
 <text x="9.5504" y="10.668" size="1.016" layer="126" rot="MR270">GND</text>
 <text x="1.651" y="25.0952" size="1.016" layer="126" rot="MR270">VPWR-VIN</text>
 <text x="1.651" y="19.4818" size="1.016" layer="125" rot="R90">VP-VIN</text>
-<text x="16.1036" y="35.052" size="1.016" layer="125">C1</text>
-<text x="8.382" y="35.4076" size="1.016" layer="125" rot="R180">C2</text>
+<text x="15.4432" y="35.052" size="1.016" layer="125">C1</text>
+<text x="9.3726" y="35.0774" size="1.016" layer="125" rot="R180">C2</text>
 <text x="3.9116" y="17.2212" size="1.016" layer="125" rot="R180">C3</text>
 <text x="38.735" y="8.255" size="1.016" layer="125">C4</text>
 <text x="51.3334" y="8.1788" size="1.016" layer="125">C5</text>
-<text x="12.8524" y="22.8854" size="1.016" layer="125" rot="R270">C6</text>
-<text x="11.4808" y="27.2034" size="1.016" layer="125">C7</text>
+<text x="12.8524" y="23.2156" size="1.016" layer="125" rot="R270">C6</text>
+<text x="12.8016" y="27.5336" size="1.016" layer="125">C7</text>
 <text x="22.86" y="10.16" size="1.016" layer="125">C9</text>
 <text x="22.86" y="11.43" size="1.016" layer="125">C10</text>
 <text x="8.636" y="18.1102" size="1.016" layer="125">C11</text>
@@ -312,13 +312,13 @@
 <text x="5.3848" y="27.178" size="1.016" layer="125">R11</text>
 <text x="19.7866" y="31.5976" size="1.016" layer="125" rot="R180">R12</text>
 <text x="20.3708" y="34.7726" size="1.016" layer="125">R13</text>
-<text x="5.0038" y="30.3276" size="1.016" layer="125">R16</text>
-<text x="5.0038" y="32.639" size="1.016" layer="125">R17</text>
+<text x="5.0038" y="29.337" size="1.016" layer="125">R16</text>
+<text x="4.6736" y="31.9786" size="1.016" layer="125">R17</text>
 <text x="17.018" y="36.4998" size="1.016" layer="125" align="bottom-center">IC3</text>
 <text x="1.9812" y="11.8872" size="1.016" layer="125" ratio="12" rot="R180" align="bottom-center">IC5</text>
 <text x="60.96" y="21.59" size="1.016" layer="125">T1</text>
 <text x="58.9788" y="31.0896" size="1.016" layer="125">T2</text>
-<text x="21.1328" y="19.812" size="1.016" layer="125" ratio="10" rot="R90">IO13 IO12 IO14</text>
+<text x="21.1328" y="19.4818" size="1.016" layer="125" ratio="10" rot="R90">IO13 IO12 IO14</text>
 <text x="20.1422" y="20.1422" size="1.016" layer="126" ratio="10" rot="MR90">IO13 IO12 IO14</text>
 <text x="49.8602" y="25.7556" size="1.016" layer="125" ratio="10" rot="R90">IO2 IO0</text>
 <text x="48.8696" y="24.1046" size="1.016" layer="125" ratio="10">IO15</text>
@@ -346,6 +346,7 @@
 <wire x1="22.7838" y1="38.6334" x2="45.8978" y2="38.6334" width="1.016" layer="46"/>
 <wire x1="45.8978" y1="38.6334" x2="46.8884" y2="39.624" width="1.016" layer="46" curve="90"/>
 <wire x1="46.8884" y1="39.624" x2="46.8884" y2="44.577" width="1.016" layer="46"/>
+<text x="11.557" y="25.0952" size="1.016" layer="125" ratio="12" rot="R180" align="bottom-center">IC1</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2837,11 +2838,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="11.5824" y="22.2504" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.0424" y="23.5204" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4u7" x="12.0904" y="25.9334" smashed="yes">
-<attribute name="NAME" x="10.8204" y="27.2034" size="1.016" layer="25"/>
-<attribute name="POPULARITY" value="88" x="12.0904" y="25.9334" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="12.0904" y="25.9334" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.8204" y="23.3934" size="1.27" layer="27"/>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4u7" x="12.4206" y="26.5938" smashed="yes">
+<attribute name="NAME" x="11.1506" y="27.8638" size="1.016" layer="25"/>
+<attribute name="POPULARITY" value="88" x="12.4206" y="26.5938" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="12.4206" y="26.5938" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.1506" y="24.0538" size="1.27" layer="27"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="25.4" y="17.145" smashed="yes">
 <attribute name="NAME" x="27.305" y="16.51" size="1.016" layer="25"/>
@@ -3219,7 +3220,7 @@ design rules under a new name.</description>
 </polygon>
 <via x="26.67" y="12.065" extent="1-16" drill="0.35" diameter="0.8"/>
 <via x="8.9408" y="24.638" extent="1-16" drill="0.35" diameter="0.8"/>
-<via x="13.0048" y="20.7772" extent="1-16" drill="0.35" diameter="0.8"/>
+<via x="13.0048" y="20.1168" extent="1-16" drill="0.35" diameter="0.8"/>
 <via x="57.785" y="10.16" extent="1-16" drill="0.35" diameter="0.8"/>
 <via x="45.085" y="10.16" extent="1-16" drill="0.35" diameter="0.8"/>
 <contactref element="IC2" pad="2"/>
@@ -3228,7 +3229,7 @@ design rules under a new name.</description>
 <contactref element="C3" pad="2"/>
 <contactref element="C11" pad="2"/>
 <via x="13.5636" y="30.5816" extent="1-16" drill="0.35" diameter="0.8"/>
-<via x="6.9596" y="29.591" extent="1-16" drill="0.35" diameter="0.8"/>
+<via x="6.9596" y="30.9118" extent="1-16" drill="0.35" diameter="0.8"/>
 <via x="10.2616" y="34.544" extent="1-16" drill="0.35" diameter="0.8"/>
 <via x="9.9314" y="35.5346" extent="1-16" drill="0.35" diameter="0.8"/>
 <via x="9.9314" y="36.5252" extent="1-16" drill="0.35" diameter="0.8"/>
@@ -3283,8 +3284,9 @@ design rules under a new name.</description>
 <wire x1="5.9436" y1="18.4506" x2="5.9842" y2="18.4912" width="0.8128" layer="1"/>
 <wire x1="5.9842" y1="18.4912" x2="5.9436" y2="18.5318" width="0.8128" layer="1"/>
 <wire x1="5.9436" y1="18.5318" x2="5.9436" y2="20.1422" width="0.8128" layer="1"/>
-<wire x1="9.8908" y1="25.938" x2="11.1358" y2="25.938" width="0.6096" layer="1"/>
-<wire x1="11.1358" y1="25.938" x2="11.1404" y2="25.9334" width="0.6096" layer="1"/>
+<wire x1="11.466" y1="26.5984" x2="9.8908" y2="26.5984" width="0.6096" layer="1"/>
+<wire x1="9.8908" y1="25.938" x2="9.8908" y2="26.5984" width="0.6096" layer="1"/>
+<wire x1="11.4706" y1="26.5938" x2="11.466" y2="26.5984" width="0.6096" layer="1"/>
 <via x="9.906" y="27.7368" extent="1-16" drill="0.35" diameter="0.8"/>
 <wire x1="9.906" y1="27.7368" x2="9.906" y2="25.9532" width="0.6096" layer="1"/>
 <wire x1="9.906" y1="25.9532" x2="9.8908" y2="25.938" width="0.6096" layer="1"/>
